@@ -8,7 +8,7 @@ if '@' in msg:
     cnt = str(input('O que gostaria juntar a msg: '))
 
 rep = 0
-sleep(1)
+sleep(1.5)
 while rep < qtd:
     pyautogui.write(msg)
     pyautogui.press('enter')
